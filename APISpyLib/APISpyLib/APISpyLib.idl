@@ -1,0 +1,10 @@
+// APISpyLib.idl : APISpyLib.dll 的类型库源
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(APISpyLib.tlb)。
+
+[ uuid(A4978FC3-DE52-450E-9BC8-86CF7F0D5261), version(1.0) ]
+library APISpyLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};

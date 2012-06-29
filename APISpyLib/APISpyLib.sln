@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APISpyLib", "APISpyLib\APISpyLib.vcxproj", "{E3F8117B-20E8-4D56-9B39-D5655A26ADF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3F8117B-20E8-4D56-9B39-D5655A26ADF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3F8117B-20E8-4D56-9B39-D5655A26ADF0}.Debug|Win32.Build.0 = Debug|Win32
+		{E3F8117B-20E8-4D56-9B39-D5655A26ADF0}.Release|Win32.ActiveCfg = Release|Win32
+		{E3F8117B-20E8-4D56-9B39-D5655A26ADF0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

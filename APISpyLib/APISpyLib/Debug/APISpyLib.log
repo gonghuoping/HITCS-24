@@ -1,0 +1,76 @@
+﻿生成启动时间为 2012/6/27 14:37:45。
+     1>项目“C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\APISpyLib\APISpyLib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\APISpyLib.unsuccessfulbuild”执行 Touch 任务。
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "APISpyLib_h.h" /tlb "Debug\APISpyLib.tlb" APISpyLib.idl 
+         Processing .\APISpyLib.idl
+         APISpyLib.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         E:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\APISpyLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\APISpyLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt APIHook.cpp APISpyData.cpp APISpyLib.cpp Memory.cpp ShareMemory.cpp
+         ShareMemory.cpp
+         Memory.cpp
+         APISpyLib.cpp
+         APISpyData.cpp
+         APIHook.cpp
+         正在生成代码...
+     1>c:\users\huoping\documents\visual studio 2010\projects\apispylib\apispylib\apihook.cpp(153): warning C4717: “APIHook::LoadLibraryA”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+     1>c:\users\huoping\documents\visual studio 2010\projects\apispylib\apispylib\apihook.cpp(159): warning C4717: “APIHook::LoadLibraryW”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+     1>c:\users\huoping\documents\visual studio 2010\projects\apispylib\apispylib\apihook.cpp(165): warning C4717: “APIHook::LoadLibraryExA”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+     1>c:\users\huoping\documents\visual studio 2010\projects\apispylib\apispylib\apihook.cpp(171): warning C4717: “APIHook::LoadLibraryExW”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+     1>c:\users\huoping\documents\visual studio 2010\projects\apispylib\apispylib\apihook.cpp(186): warning C4717: “APIHook::GetProcAddress”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\APISpyLib.res" APISpyLib.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\APISpyLib.dll.embed.manifest.res" Debug\APISpyLib_manifest.rc 
+       Link:
+         E:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.dll" /INCREMENTAL /NOLOGO /DEF:".\APISpyLib.def" /MANIFEST /ManifestFile:"Debug\APISpyLib.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.lib" /MACHINE:X86 /DLL Debug\APISpyLib.res
+         Debug\APISpyLib.dll.embed.manifest.res
+         Debug\APIHook.obj
+         Debug\APISpyData.obj
+         Debug\APISpyLib.obj
+         Debug\Memory.obj
+         Debug\ShareMemory.obj
+         Debug\stdafx.obj
+            正在创建库 C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.lib 和对象 C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\APISpyLib.dll.embed.manifest" /manifest Debug\APISpyLib.dll.intermediate.manifest E:\VS2010\VC\Include\Manifest\dpiaware.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\APISpyLib.dll.embed.manifest.res" Debug\APISpyLib_manifest.rc 
+       LinkEmbedManifest:
+         E:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.dll" /INCREMENTAL /NOLOGO /DEF:".\APISpyLib.def" /MANIFEST /ManifestFile:"Debug\APISpyLib.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.lib" /MACHINE:X86 /DLL Debug\APISpyLib.res
+         Debug\APISpyLib.dll.embed.manifest.res
+         Debug\APIHook.obj
+         Debug\APISpyData.obj
+         Debug\APISpyLib.obj
+         Debug\Memory.obj
+         Debug\ShareMemory.obj
+         Debug\stdafx.obj
+            正在创建库 C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.lib 和对象 C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.exp
+         APISpyLib.vcxproj -> C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.dll
+       RegisterOutput:
+         regsvr32 /s "C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.dll"
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(732,5): warning MSB3073: 命令“regsvr32 /s "C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\Debug\APISpyLib.dll"”已退出，代码为 3。
+         上一错误已转换为警告，因为调用任务时指定了 ContinueOnError=true。
+         继续生成，因为任务“Exec”的“ContinueOnError”设置为“true”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(744,5): error MSB8011: 未能注册输出。请尝试启用“逐用户重定向”，或者使用提升的权限从命令提示符处注册该组件。
+     1>已完成生成项目“C:\Users\huoping\Documents\Visual Studio 2010\Projects\APISpyLib\APISpyLib\APISpyLib.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:17.34
